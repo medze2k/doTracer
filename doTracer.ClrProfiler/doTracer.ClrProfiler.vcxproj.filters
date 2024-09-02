@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ClassFactory.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CorProfiler.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MethodInfo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleInfo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterInfo.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IPC.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ValueReader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CorProfiler.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassFactory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ComHelpers.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MethodInfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleInfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AssemblyInfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ParameterInfo.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonEncoder.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="IPC.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ValueReader.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="x64AssemblyStub.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClrProfiler.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{fbb3a578-d782-4437-b68e-bad9743edb57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4ded44fc-6428-4b6f-b008-416a37d15273}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,150 @@
+{
+    "methodOffsets": [
+        {
+            "id": 1,
+            "architecture": "X86",
+            "assembly": "mscorlib.ni.dll",
+            "sha256": "fd6f49b297482ff191e32a780361aa5b7f03c8c8fcef3c9c05e79fa51d5a2728",
+            "offsets": [
+                {
+                    "fqcn": "System.IO.StreamReader",
+                    "methods": [
+                        {
+                            "mid": "System.IO.StreamReader.ReadLine()System.String:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "offsets": [ "0x00", "0x2C", "0x1C" ]
+                        },
+                        {
+                            "mid": "System.IO.StreamReader.Read()System.Int32:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "offsets": [ "0x00", "0x2C", "0x0C" ]
+                        },
+                        {
+                            "mid": "System.IO.StreamReader.Read(System.Char[],System.Int32,System.Int32)System.Int32:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "fastcall",
+                            "offsets": [ "0x00", "0x2C", "0x10" ]
+                        },
+                        {
+                            "mid": "System.IO.StreamReader.Peek()System.Int32:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "offsets": [ "0x00", "0x2C", "0x08" ]
+                        },
+                        {
+                            "mid": "System.IO.StreamReader.ReadBlock(System.Char[],System.Int32,System.Int32)System.Int32:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "fastcall",
+                            "offsets": [ "0x00", "0x2C", "0x18" ]
+                        },
+                        {
+                            "mid": "System.IO.StreamReader.ReadToEnd()System.String:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "offsets": [ "0x00", "0x2C", "0x14" ]
+                        },
+                        {
+                            "mid": "System.Object.ToString()System.String:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "offsets": [ "0x00", "0x28", "0x00" ]
+                        }
+                    ]
+                },
+                {
+                    "fqcn": "System.IO.StreamWriter",
+                    "methods": [
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine()System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "thiscall",
+                            "offsets": [ "0x00", "0x38", "0x00" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.Boolean)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "fastcall",
+                            "offsets": [ "0x00", "0x38", "0x10" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.Char)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "fastcall",
+                            "offsets": [ "0x00", "0x38", "0x04" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.Char[])System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "fastcall",
+                            "offsets": [ "0x00", "0x38", "0x08" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.Decimal)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "thiscall",
+                            "offsets": [ "0x00", "0x3C", "0x0C" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.Double)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "thiscall",
+                            "offsets": [ "0x00", "0x3C", "0x08" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.Single)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "thiscall",
+                            "offsets": [ "0x00", "0x3C", "0x04" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.Int32)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "fastcall",
+                            "offsets": [ "0x00", "0x38", "0x14" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.Int64)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "thiscall",
+                            "offsets": [ "0x00", "0x38", "0x1C" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.Object)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "fastcall",
+                            "offsets": [ "0x00", "0x3C", "0x14" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.String)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "fastcall",
+                            "offsets": [ "0x00", "0x3C", "0x10" ]
+                        },
+                        {
+                            "mid": "System.IO.TextWriter.WriteLine(System.UInt32)System.Void:nonstatic:public",
+                            "isStatic": false,
+                            "isInstance": true,
+                            "callingConvention": "fastcall",
+                            "offsets": [ "0x00", "0x38", "0x18" ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
